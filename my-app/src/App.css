@@ -1,0 +1,319 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.d-block {
+  width: 70%;
+  height: 40%;
+  margin: auto;
+}
+
+.carousel {
+  width: 40%;
+  height: 90%;
+  margin-top: 4rem;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+
+  .carousel {
+    width: 80%;
+  }
+}
+
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./fonts/Pacifico-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "MonteCarlo-Regular";
+  src: url('./fonts/MonteCarlo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mainsection {
+  margin-top: 4rem;
+}
+
+#mainTitle {
+  font-size: 2rem;
+  font-family: 'OldStandardTT-Regular', serif;
+  color: black;
+  width:80%;
+  margin:auto;
+}
+
+#wedding {
+  font-family: 'MonteCarlo-Regular', cursive !important;
+  font-size: 8rem;
+  margin-right: 1rem;
+}
+
+#names {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+#date {
+  font-size: 1.5rem;
+  font-family: 'OldStandardTT-Regular-light', serif;
+}
+
+@font-face {
+  font-family: 'PlaywriteRO';
+  src: url('./fonts/PlaywriteRO-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url('./fonts/Parisienne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OldStandardTT-Regular';
+  src: url('./fonts/OldStandardTT-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'OldStandardTT-Regular-light';
+  src: url('./fonts/OldStandardTT-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: light;
+}
+
+
+.longhr {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+.sectionHeader {
+  font-family: "./fonts/OldStandardTT-Regular-light.ttf", serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.mainpageSubheading {
+  font-family: 'OldStandardTT-Regular-light', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+} */
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html, body {
+  overflow-x: hidden;
+} */
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.d-block {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+}
+
+.carousel {
+  width: 40%;
+  max-width: 100%;
+  height: 90%;
+  margin-top: 4rem;
+  margin: auto;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+
+  .carousel {
+    width: 80%;
+  }
+}
+
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./fonts/Pacifico-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "MonteCarlo-Regular";
+  src: url('./fonts/MonteCarlo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mainsection {
+  margin-top: 4rem;
+}
+
+#mainTitle {
+  font-size: 2rem;
+  font-family: 'OldStandardTT-Regular', serif;
+  color: black;
+  width:80%;
+  margin:auto;
+  max-width: 100%;
+}
+
+#wedding {
+  font-family: 'MonteCarlo-Regular', cursive !important;
+  font-size: 8rem;
+  margin: auto;
+}
+
+
+@media (max-width: 768px) {
+  #wedding {
+    font-size: 6.5rem;
+  }
+}
+
+#names {
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+
+#date {
+  font-size: 1.5rem;
+  font-family: 'OldStandardTT-Regular-light', serif;
+  max-width: 90%;
+  margin: auto
+}
+
+@font-face {
+  font-family: 'PlaywriteRO';
+  src: url('./fonts/PlaywriteRO-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Adjust this range based on the font's weight axis */
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url('./fonts/Parisienne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OldStandardTT-Regular';
+  src: url('./fonts/OldStandardTT-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'OldStandardTT-Regular-light';
+  src: url('./fonts/OldStandardTT-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: light;
+}
+
+
+.longhr {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+.sectionHeader {
+  font-family: "./fonts/OldStandardTT-Regular-light.ttf", serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.mainpageSubheading {
+  font-family: 'OldStandardTT-Regular-light', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}

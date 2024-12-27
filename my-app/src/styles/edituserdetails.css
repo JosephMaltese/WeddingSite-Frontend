@@ -1,0 +1,104 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 3rem;
+    height: 100%;
+    padding: 0;
+}
+
+.mainTitle {
+    font-size: 3.5rem;
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+    width: 80%;
+    text-align: center;
+  }
+
+.subHeading {
+    font-size: 2rem;
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+    text-align: center;
+}
+
+
+.subContainer {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem !important;
+    width: 100%;
+}
+
+.backButton {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+.inputuserdetails {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+}
+
+
+
+.familyMember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.memberName {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top:0;
+    margin-bottom:0;
+    font-size: 1rem;
+}
+
+.memberNameInput {
+    margin: 0.5rem;
+    margin-left: 0;
+    width: 9rem;
+    height: 2rem;
+}
+
+.attending {
+    margin: auto;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.checkbox {
+    margin: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.deleteButton {
+    margin-right: 1rem;
+}
+
+.bottomBtn {
+    margin: 1rem;
+}

@@ -1,0 +1,61 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 3rem;
+    height: 100%;
+    padding: 0;
+}
+
+.mainTitle {
+    font-size: 3.5rem;
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+    width: 80%;
+    text-align: center;
+  }
+
+.buttons {
+    margin: 0 3rem;
+}
+
+.subContainer {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem !important;
+    width: 100%;
+}
+
+.backButton {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+input {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

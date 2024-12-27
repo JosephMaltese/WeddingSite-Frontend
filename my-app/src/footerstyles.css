@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'OldStandardTT-Regular-light';
+    src: url('./fonts/OldStandardTT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: light;
+  }
+
+@font-face {
+    font-family: 'OldStandardTT-Regular-light';
+    src: url('./fonts/OldStandardTT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: light;
+  }
+
+* {
+    font-family: "OldStandardTT-Regular-light", serif;
+}
+
+footer {
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+hr {
+    width: 13%;
+    border: 1px solid black;
+    opacity: 1;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: black;
+    font-family: "OldStandardTT-Regular-light", serif;
+    margin-bottom: 4rem;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.smalltext {
+    font-size: 0.8rem;
+}

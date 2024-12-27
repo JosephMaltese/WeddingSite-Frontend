@@ -1,0 +1,70 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 3rem;
+    height: 100%;
+    padding: 0;
+}
+
+.mainTitle {
+    font-size: 3.5rem;
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+    width: 80%;
+    text-align: center;
+}
+
+
+.subheading {
+    font-size: 2rem;
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+#text {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    max-width: 90%;
+}
+
+p {
+    font-family: 'OldStandardTT-Regular', serif;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.familyMember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    max-width: 100%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.memberName {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.optionName {
+    margin:0;
+    min-width: 5rem;
+    font-size: 12pt;
+    margin: auto;
+}
+
+.Checkbox {
+    margin:0.5rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.plusOneNameInput {
+    margin: 0.5rem;
+    width: 11rem;
+    height: 1.5rem;
+}
