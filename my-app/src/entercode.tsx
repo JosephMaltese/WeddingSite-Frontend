@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+// import axios from "axios";
+import axios from './axiosconfig';
 import Footer from "./footer";
 import './styles/entercode.css';
 import Button from 'react-bootstrap/Button';
@@ -107,7 +108,7 @@ function EnterCode() {
             <Button variant="dark" size="sm" className="backButton" onClick={() => navigate('/')}>{language === "english" ? 'Back' : "Retour"}</Button>
             <h1 className="mainTitle">{language === "english" ? 'Enter Access Code' : "Entrez le code d’accès"}</h1>
             <div className="subContainer">
-                <p>{language === "english" ? 'To RSVP to this event, please begin by entering the unique 6-digit access code provided on your wedding invitation.' : "Pour RSVP au mariage, s’il-vous-plaît entrez le code unique d’accès à 6 caractères que vous pouvez retrouver sur votre invitation."}</p>
+                <p>{language === "english" ? 'To RSVP to this event, please begin by entering the unique 6-digit access code provided on your wedding invitation.' : "Pour RSVP au mariage, s'il-vous-plaît entrez le code unique d’accès à 6 caractères que vous pouvez retrouver sur votre invitation."}</p>
                 <input type="text" placeholder={language === 'english' ? "Enter Access Code" : 'Entrez le code d’accès'} onChange={(e) => handleAccessCodeChange(e)} value={accessCode}></input>
                 {loading && 
                 <div>

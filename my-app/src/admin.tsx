@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+//import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './styles/admin.css';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { useAuth } from './authContext';
+import axios from './axiosconfig';
 
 interface User {
     email: string;

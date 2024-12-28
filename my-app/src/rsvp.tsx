@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
-import axios from 'axios';
+//import axios from 'axios';
+import axios from './axiosconfig';
 import { useNavigate, useParams, useLocation } from 'react-router-dom';
 import Footer from './footer';
 import './styles/rsvp.css';

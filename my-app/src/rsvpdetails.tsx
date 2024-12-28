@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import axios from "axios";
+//import axios from "axios";
+import axios from './axiosconfig';
 import { useState, useEffect } from "react";
 import "./styles/rsvpdetails.css";
 import Button from 'react-bootstrap/Button';
