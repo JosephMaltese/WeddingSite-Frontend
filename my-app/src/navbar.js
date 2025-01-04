@@ -19,6 +19,11 @@ function Navbar() {
 
     }
 
+    const closeNavBar = () => {
+        navRef.current.classList.remove("responsive_nav");
+        document.body.style.overflow = "auto"; // Restore scrolling
+    }
+
     return (
         <header>
             <h3>M&P</h3>
@@ -27,13 +32,12 @@ function Navbar() {
                     <NavDropdown.Item onClick={() => setLanguage('english')}>{language === 'english' ? 'English' : "Anglais"}</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setLanguage('french')}>{language === 'english' ? 'French' : "Français"}</NavDropdown.Item>
                 </NavDropdown>
-                <a href="#home">{language === 'english' ? 'Home' : 'Accueil'}</a>
-                <a href="#details">{language === 'english' ? 'Details' : 'Détails'}</a>
-                <a href="#couple">{language === 'english' ? 'The Couple' : 'Le Couple'}</a>
-                <a href="#accommodations">{language === 'english' ? 'Accommodations' : 'Hébergement'}</a>
-                <a href="#transportation">Transportation</a>
-                <a href="#Q&A">{language === 'english' ? 'Q&A' : 'Questions et réponses'}</a>
-                <a href="#rsvp">RSVP</a>
+                <a href="#home" onClick={closeNavBar}>{language === 'english' ? 'Home' : 'Accueil'}</a>
+                <a href="#details" onClick={closeNavBar}>{language === 'english' ? 'Details' : 'Détails'}</a>
+                <a href="#couple" onClick={closeNavBar}>{language === 'english' ? 'The Couple' : 'Le Couple'}</a>
+                <a href="#accommodations" onClick={closeNavBar}>{language === 'english' ? 'Accommodations' : 'Hébergement'}</a>
+                <a href="#Q&A" onClick={closeNavBar}>{language === 'english' ? 'Q&A' : 'Questions et réponses'}</a>
+                <a href="#rsvp" onClick={closeNavBar}>RSVP</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavBar}>
                     <FaTimes/>
                 </button>
