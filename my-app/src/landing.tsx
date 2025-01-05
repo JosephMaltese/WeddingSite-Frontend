@@ -16,6 +16,7 @@ function Landing() {
     navigate("/enter-code");
   }
 
+  
   return (
     <div className="App">
       <Navbar />
