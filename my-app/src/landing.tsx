@@ -49,7 +49,7 @@ function Landing() {
           </div>
 
           <div>
-            <h3 className = "mainpageSubheading">{language === "english" ? 'Party' : "Réception"}</h3>
+            <h3 className = "mainpageSubheading">{language === "english" ? 'Party' : "Fête"}</h3>
             <p>Time: 9:30pm - 2:00am</p>
           </div>
 
