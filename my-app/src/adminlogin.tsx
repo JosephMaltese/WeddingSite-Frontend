@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import './styles/adminlogin.css';
 import Button from 'react-bootstrap/Button';
 import { useAuth } from './authContext';
+const adminPassword = process.env.REACT_APP_ADMIN_PASSWORD;
 
 function AdminLogin() {
     const { login } = useAuth();
@@ -14,7 +15,7 @@ function AdminLogin() {
     }
 
     const handleLogin = () => {
-        if (password === "HemtojRocks2004!") {
+        if (password === adminPassword) {
             login();
             navigate('/admin');
         }
