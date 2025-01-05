@@ -114,7 +114,7 @@
   font-size: 1.5rem;
   font-family: 'OldStandardTT-Regular-light', serif;
   max-width: 90%;
-  margin: auto
+  margin: auto;
 }
 
 @font-face {
@@ -165,7 +165,7 @@
 .mainpageSubheading {
   font-family: 'OldStandardTT-Regular-light', serif;
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .hoverUnderline {

@@ -35,22 +35,22 @@ function Landing() {
           <p>All events will be held at Espace Saint-Grégoire <br/> 2 Rue Monseigneur-Marc-Leclerc <br/> Québec City <br/> G1C2C4</p>
           <div>
             <h3 className = "mainpageSubheading">{language === "english" ? 'Ceremony ' : "Cérémonie"}</h3>
-            <p>Time-</p>
+            <p>Time: 4:00pm - 4:30pm</p>
           </div>
 
           <div>
             <h3 className = "mainpageSubheading">{language === "english" ? 'Cocktail Hour' : "Cocktail"}</h3>
-            <p>Time -</p>
+            <p>Time: 4:30pm - 6:00 pm</p>
           </div>
 
           <div>
             <h3 className = "mainpageSubheading">{language === "english" ? 'Reception' : "Réception"}</h3>
-            <p>Time -</p>
+            <p>Time: 6:00pm - 9:30pm</p>
           </div>
 
           <div>
-            <h3 className = "mainpageSubheading">{language === "english" ? 'Shuttle Service' : "Service De Navette"}</h3>
-            <p>Details</p>
+            <h3 className = "mainpageSubheading">{language === "english" ? 'Party' : "Réception"}</h3>
+            <p>Time: 9:30pm - 2:00am</p>
           </div>
 
         </section>
