@@ -36,7 +36,6 @@ function Navbar() {
                 <a href="#details" onClick={closeNavBar}>{language === 'english' ? 'Details' : 'Détails'}</a>
                 <a href="#couple" onClick={closeNavBar}>{language === 'english' ? 'The Couple' : 'Le Couple'}</a>
                 <a href="#accommodations" onClick={closeNavBar}>{language === 'english' ? 'Accommodations' : 'Hébergement'}</a>
-                <a href="#Q&A" onClick={closeNavBar}>{language === 'english' ? 'Q&A' : 'Questions et réponses'}</a>
                 <a href="#rsvp" onClick={closeNavBar}>RSVP</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavBar}>
                     <FaTimes/>
