@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import Spinner from 'react-bootstrap/Spinner';
 import { LanguageContext } from './LanguageContext';
+import { useAuth } from './authContext';
 
 interface familyMember {
     name: string;
@@ -35,6 +36,7 @@ const RsvpToEvent: React.FC = () => {
     const [showAlert, setShowAlert] = useState(false);
     const [loading, setLoading] = useState(false);
     const { language } = useContext(LanguageContext);
+    const { rsvp } = useAuth();
     
 
 
@@ -84,6 +86,7 @@ const RsvpToEvent: React.FC = () => {
             } else {
                 setLoading(true)
                 const response = await axios.put('/api/auth/updateUser', { email: user.email, rsvp: true, attending: false, familyMembers: user.familyMembers, lastname: user.lastname, memberCount: user.memberCount, finishedRSVP: true });
+                rsvp();
                 navigate('/feedback');
                 setLoading(false)
 
