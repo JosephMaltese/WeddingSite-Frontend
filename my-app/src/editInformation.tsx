@@ -87,7 +87,7 @@ const EditInformation: React.FC = () => {
             familyMembers: guests,
             lastname: lastName,
             memberCount: finalMemberCount,
-            finishedRSVP: user.finishedRSVP,
+            finishedRSVP: rsvp,
         }
 
         const response = await axios.put('/api/auth/updateUser', updatedUser).then((response) => {console.log(response);}).catch((error) => {
