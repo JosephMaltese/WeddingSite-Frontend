@@ -123,7 +123,7 @@ function Landing() {
 
             <div>
               <a className='hoverUnderline' target='_blank' href="https://hotelchamplain.ca/en/"><h3 className = "mainpageSubheading">Hôtel Champlain Vieux Québec</h3></a>
-              <p style={{maxWidth: '80%', fontSize: '1.1rem'}}>115 Rue Sainte-Anne Rue, Québec, QC G1R 3X6</p>
+              <p style={{maxWidth: '80%', fontSize: '1.1rem'}}>115 Rue Sainte-Anne, Québec, QC G1R 3X6</p>
             </div>
 
             <div>
