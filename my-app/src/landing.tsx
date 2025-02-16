@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
 import { LanguageContext } from './LanguageContext';
 import MapComponent from './MapComponent';
+import Map from './googlemaps';
 
 function Landing() {
   const navigate = useNavigate();
@@ -136,7 +137,7 @@ function Landing() {
               <p style={{maxWidth: '80%', fontSize: '1.1rem'}}>1048 Rue Saint-Jean, Québec, QC G1R 1R6</p>
             </div>
             
-          <MapComponent />
+          <Map />
           </div>
         </section>
 

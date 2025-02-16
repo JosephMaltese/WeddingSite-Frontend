@@ -176,3 +176,16 @@
   text-decoration: underline;
   text-decoration-color: black;
 }
+
+
+.gm-style-iw-chr {
+  height: 20px;
+}
+
+.gm-style-iw-ch {
+  height: 0px;
+}
+
+button .gm-ui-hover-effect {
+  overflow: visible;
+}
