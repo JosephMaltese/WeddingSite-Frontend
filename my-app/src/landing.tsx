@@ -103,7 +103,7 @@ function Landing() {
         <hr className="longhr"/>
 
         <section id="accommodations">
-          <h2 className="sectionHeader">{language === 'english' ? 'Transporation & Accommodations' : 'Hébergement'}</h2>
+          <h2 className="sectionHeader">{language === 'english' ? 'Transportation & Accommodations' : 'Hébergement'}</h2>
 
           <div>
             <p style={{paddingRight: '10%', paddingLeft: '10%', fontSize: '1.1rem', textAlign: 'center'}}>{language === 'english' ? 'We have arranged for multiple shuttles (before the ceremony & at the end of the night) to bring guests to and from the venue on our wedding day. The shuttle will depart and arrive at a central point in Vieux Quebec, which is marked on the map below. Our suggestion is to rent a hotel or AirBNB near the bus pick-up/drop-off location, if you would like to use the shuttle. There will also be parking at the venue should you decide to drive there. The venue is a 15 minute drive away from Vieux Quebec.' : 'Il y aura un service d’autobus qui fera plusieurs allers-retours la journée du mariage, du Vieux Québec vers l’Espace Saint-Grégoire et vice-versa. L’autobus partira et arrivera à un point central dans le Vieux-Québec, voir la carte ci-dessous pour la location précise. Nous suggérons de louer un hôtel ou un AirBnB près du point de ramassage et de dépôt de l’autobus, si vous désirez utiliser l’autobus pendant la journée. Il y aura également un stationnement à la salle de réception si vous prenez la décision de conduire. La salle de réception est à environ 15 minutes du Vieux Québec. '}</p>
